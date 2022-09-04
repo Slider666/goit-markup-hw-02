@@ -1,0 +1,207 @@
+/* CSS переменные */
+    :root {
+        --primary-text-color: #757575;
+        --main-text-color: #212121;
+        --sec-title: #212121;
+        --link-color: #2196F3;
+        --bg-color-button: #2196F3;
+    }
+
+/* Общий стиль */
+    body {
+        color: var(--primary-text-color);
+
+        background-color: #FFFFFF;
+
+        font-family: Roboto, sans-serif;
+
+        letter-spacing: 0.03em;
+        }
+
+        li { list-style: none; }
+
+        a { 
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+
+/* Логотип */
+    .logo-one {
+        color: #2196F3;
+    }
+
+    .logo-head-two {
+        color: #000000;
+    }
+
+    .logo-footer-two {
+        color: #FFFFFF;
+    }
+
+    .logo-one,
+    .logo-head-two,
+    .logo-footer-two {
+        font-family: Raleway, sans-serif;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.2;
+    }
+
+/* Навигация */
+    .header-nav a {
+        color: #212121;
+    }
+
+    .header-contacts a {
+        color: #757575;
+    }
+
+    .header-nav a:hover,
+    .header-nav a:focus {
+        color: var(--link-color);
+    }
+
+    .header-contacts a:hover,
+    .header-contacts a:focus {
+        color: var(--link-color);
+    }
+
+    .header-nav a,
+    .header-contacts a {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+    }
+
+/* Главный блок */
+    .hero {
+        background-color: #2F303A;
+    }
+
+    .hero h1 {
+        color: #FFFFFF;
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        text-align: center;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+    }
+
+    .title {
+        color: var(--main-text-color);
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        text-transform: uppercase;
+    }
+
+    .list-description {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+    }
+
+    .sec-title {
+        color: var(--sec-title);
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.66;
+        text-align: center;
+    }
+
+    .our-team {
+        background-color: #F5F4FA;
+    }
+
+    .our-team .title {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.2;
+        text-align: center;
+    }
+
+    .our-team p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.2;
+        text-align: center;
+    }
+
+    .work-list h2 {
+        color: var(--main-text-color);
+
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+        letter-spacing: 0.06em;
+    }
+
+    .work-list p {
+        color: var(--primary-text-color);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.88;
+    }
+
+/* Подвал */
+    .footer {
+        background-color: #2F303A;
+    }
+    
+    .footer-adress {
+        color: #FFFFFF;
+    }
+
+    .footer-contact {
+        color: rgba(255, 255, 255, 0.6);
+    }
+
+    .footer-adress,
+    .footer-contact {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+    }
+
+/* Button */
+    .hero-button {
+        color: #FFFFFF;
+        background-color: var(--bg-color-button);
+
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.88;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.06em;
+
+        cursor: pointer;
+    }
+
+    .port-button {
+        color: var(--main-text-color);
+        background-color: #F5F4FA;
+
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.62;
+        text-align: center;
+
+        cursor: pointer;
+    }
+
+    .port-button:hover,
+    .port-button:focus {
+        color: #FFFFFF;
+        background-color: var(--bg-color-button);
+
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.62;
+        text-align: center;
+    }
